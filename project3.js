@@ -1,12 +1,12 @@
 const celsius = 100
 
-function convertToKelvin() {
-    const kelvin = celsius + 273
+function convertToKelvin(cTemp) {
+    const kelvin = cTemp + 273
     return kelvin
 }
 
-function convertToFahrenheit() {
-    const fahrenheit = celsius * (9/ 5) + 32
+function convertToFahrenheit(cTemp) {
+    const fahrenheit = cTemp * (9/ 5) + 32
     return fahrenheit
 }
 

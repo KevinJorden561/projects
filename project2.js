@@ -1,7 +1,7 @@
 const fahrenheit = 90
 
-function convertTemp() {
-    const celsius = (fahrenheit - 32) * 5 / 9
+function convertTemp(fTemp) {
+    const celsius = (fTemp - 32) * 5 / 9
     return celsius
 }
 
